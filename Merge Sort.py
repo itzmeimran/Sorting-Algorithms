@@ -28,9 +28,15 @@ def mergesort(list):
             j+=1
             k+=1
           
-list = [22,97,121,54,12,76,32]
+import random
+list =[]
+for i in range(10):
+    a =random.randint(0,20)
+    list.append(a) 
+print("unsorted list : ", list, end=" ")
+print()
 mergesort(list)
-print("Sorted List is ", list)
+print("After mergesort : ", list , end = ' '))
             
         
     
